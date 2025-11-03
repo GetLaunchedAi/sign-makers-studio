@@ -46,9 +46,9 @@
     --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
   }
   :root body.dark-mode {
-    --bg-dark: oklch(0.1 0.06 95.3);      /* 1-0.92=0.08, floored at 0.1 */
-    --bg: oklch(0.15 0.06 95.3);          /* 1-0.96=0.04, floored at 0.15 */
-    --bg-light: oklch(0.2 0.06 95.3);     /* 1-1=0, floored at 0.2 */
+    --bg-dark: oklch(0.1 0 95.3);      /* 1-0.92=0.08, floored at 0.1 */
+    --bg: oklch(0.15 0 95.3);          /* 1-0.96=0.04, floored at 0.15 */
+    --bg-light: oklch(0.2 0 95.3);     /* 1-1=0, floored at 0.2 */
     --text: oklch(0.96 0.1 95.3);         /* inverted from 0.15, using text-inverted pattern */
     --text-muted: oklch(0.76 0.1 95.3);   /* inverted from 0.4, using text-muted-inverted pattern */
     --highlight: oklch(0.5 0.12 95.3);    /* midpoint */
