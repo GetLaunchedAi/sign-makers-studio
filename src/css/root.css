@@ -965,16 +965,17 @@ body.dark-mode #navigation #navbar-menu .dropdown.open .dropdown-menu {
   }
   #footer .right-section {
     margin: 0;
-    width: 38.0625rem;
+    width: 50rem;
     max-width: none;
   }
   #footer .right-section .lists {
-    width: 96%;
+    width: 100%;
     max-width: 48.0625rem;
     margin: 0;
     max-width: initial;
     justify-content: space-between;
     text-align: left;
+    gap: 2rem;
   }
     #footer .right-section .lists ul {
       width: auto;
